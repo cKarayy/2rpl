@@ -1,0 +1,65 @@
+name: testt
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  carousel_slider: ^5.0.0
+  cloud_firestore: ^5.4.4
+  firebase_core: ^3.6.0
+  firebase_storage: ^12.3.3
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Belgrano
+      fonts:
+        - asset: assets/fonts/Belgrano-Regular.ttf
+    - family: AbhayaLibre
+      fonts:
+        - asset: assets/fonts/AbhayaLibre-ExtraBold.ttf
+    - family: Basic
+      fonts:
+        - asset: assets/fonts/Basic-Regular.ttf
+    - family: Battambang
+      fonts:
+        - asset: assets/fonts/Battambang-Regular.ttf
+    - family: Bayon
+      fonts:
+        - asset: assets/fonts/Bayon-Regular.ttf
+    - family: BigshotOne
+      fonts:
+        - asset: assets/fonts/BigshotOne-Regular.ttf
+    - family: BonaNova
+      fonts:
+        - asset: assets/fonts/BonaNova-Regular.ttf
+    - family: Calistoga
+      fonts:
+        - asset: assets/fonts/Calistoga-Regular.ttf
+    - family: KonkhmerSleokchher
+      fonts:
+        - asset: assets/fonts/KonkhmerSleokchher-Regular.ttf
+    - family: Mirza
+      fonts:
+        - asset: assets/fonts/Mirza-Regular.ttf
+    - family: OdorMean
+      fonts:
+        - asset: assets/fonts/OdorMeanChey-Regular.ttf
+    - family: PassionOne
+      fonts:
+        - asset: assets/fonts/PassionOne-Regular.ttf

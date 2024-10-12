@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "627756843136",
+    "firebase_url": "https://projectrpl-b5a36-default-rtdb.firebaseio.com",
+    "project_id": "projectrpl-b5a36",
+    "storage_bucket": "projectrpl-b5a36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627756843136:android:453d91d06e74c45ac0a665",
+        "android_client_info": {
+          "package_name": "com.company.bontable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBphPuxHQQDUeS47wC532rm7A78t9rbu9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
