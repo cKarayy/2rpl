@@ -1,4 +1,6 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:testt/landing.dart';
 
 import 'home.dart';
@@ -20,11 +22,10 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'BonTable',
       debugShowCheckedModeBanner: false,
-      initialRoute: '/landing',
+      initialRoute: '/',
       routes: {
         '/landing': (context) => const LandingScreen(),
         '/home': (context) =>  HomeScreen(),
-        
       },
     );
   }
